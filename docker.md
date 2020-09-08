@@ -29,7 +29,7 @@ Lancer un container mais le supprimer dès la fin du container
 
 
 On peut lancer des commande (help à `docker container run --help`) :
-	`docker container run --rm -it alpine sh` : ici, docker lance le container alpine avec les option i et t pour un tty interactif et lance la commande sh dans le container
+`docker container run --rm -it alpine sh` : ici, docker lance le container alpine avec les option i et t pour un tty interactif et lance la commande sh dans le container
 
 
 Afficher des infos detaillées d'un container
