@@ -47,3 +47,15 @@ Supprimer TOUS les container stoppé
 Pull une image d'un repo docker
 `docker image pull <nom_de_image>`       ex: `docker image pull alpine`
 
+
+`docker image build -t <nom_du_prog>`
+ex: 
+```
+echo " FROM scratch
+COPY welcome /welcome
+
+CMD ["/welcome"]" > /lab/exo1/Dockerfile.debian
+
+
+docker image build -t "welcome:c_dynamic"
+```
